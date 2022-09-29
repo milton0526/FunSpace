@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FunSpaceApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C432335828E41CF3003FA14B /* ScenicSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432335728E41CF3003FA14B /* ScenicSpot.swift */; };
+		C432335A28E42345003FA14B /* ScenicSpotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432335928E42345003FA14B /* ScenicSpotsView.swift */; };
+		C432335E28E428AA003FA14B /* SpotCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432335D28E428AA003FA14B /* SpotCardView.swift */; };
+		C432336028E43AC8003FA14B /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432335F28E43AC8003FA14B /* SpotDetailView.swift */; };
+		C432336228E4488B003FA14B /* DetailSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432336128E4488B003FA14B /* DetailSectionView.swift */; };
 		C47F525D28E04BFB0021A5E1 /* FunSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F525C28E04BFB0021A5E1 /* FunSpaceApp.swift */; };
 		C47F525F28E04BFB0021A5E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F525E28E04BFB0021A5E1 /* ContentView.swift */; };
 		C47F526128E04BFD0021A5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F526028E04BFD0021A5E1 /* Assets.xcassets */; };
 		C47F526428E04BFD0021A5E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F526328E04BFD0021A5E1 /* Preview Assets.xcassets */; };
+		C47F526D28E04C550021A5E1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F526B28E04C550021A5E1 /* NetworkManager.swift */; };
+		C47F527128E0513A0021A5E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F527028E0513A0021A5E1 /* HomeView.swift */; };
+		C47F527528E2DBDB0021A5E1 /* CityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F527428E2DBDB0021A5E1 /* CityCardView.swift */; };
+		C4D5697328E47F76001C3D15 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D5697228E47F76001C3D15 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C432335728E41CF3003FA14B /* ScenicSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenicSpot.swift; sourceTree = "<group>"; };
+		C432335928E42345003FA14B /* ScenicSpotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenicSpotsView.swift; sourceTree = "<group>"; };
+		C432335D28E428AA003FA14B /* SpotCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCardView.swift; sourceTree = "<group>"; };
+		C432335F28E43AC8003FA14B /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
+		C432336128E4488B003FA14B /* DetailSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSectionView.swift; sourceTree = "<group>"; };
 		C47F525928E04BFB0021A5E1 /* FunSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47F525C28E04BFB0021A5E1 /* FunSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunSpaceApp.swift; sourceTree = "<group>"; };
 		C47F525E28E04BFB0021A5E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C47F526028E04BFD0021A5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47F526328E04BFD0021A5E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C47F526B28E04C550021A5E1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C47F527028E0513A0021A5E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C47F527428E2DBDB0021A5E1 /* CityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCardView.swift; sourceTree = "<group>"; };
+		C4D5697228E47F76001C3D15 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				C47F525C28E04BFB0021A5E1 /* FunSpaceApp.swift */,
 				C47F525E28E04BFB0021A5E1 /* ContentView.swift */,
+				C47F527028E0513A0021A5E1 /* HomeView.swift */,
+				C432335928E42345003FA14B /* ScenicSpotsView.swift */,
+				C432335F28E43AC8003FA14B /* SpotDetailView.swift */,
+				C432336128E4488B003FA14B /* DetailSectionView.swift */,
+				C47F527428E2DBDB0021A5E1 /* CityCardView.swift */,
+				C432335D28E428AA003FA14B /* SpotCardView.swift */,
+				C4D5697228E47F76001C3D15 /* LocationMapAnnotationView.swift */,
+				C47F526B28E04C550021A5E1 /* NetworkManager.swift */,
+				C432335728E41CF3003FA14B /* ScenicSpot.swift */,
 				C47F526028E04BFD0021A5E1 /* Assets.xcassets */,
 				C47F526228E04BFD0021A5E1 /* Preview Content */,
 			);
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C432335E28E428AA003FA14B /* SpotCardView.swift in Sources */,
+				C47F526D28E04C550021A5E1 /* NetworkManager.swift in Sources */,
 				C47F525F28E04BFB0021A5E1 /* ContentView.swift in Sources */,
+				C432336028E43AC8003FA14B /* SpotDetailView.swift in Sources */,
 				C47F525D28E04BFB0021A5E1 /* FunSpaceApp.swift in Sources */,
+				C47F527128E0513A0021A5E1 /* HomeView.swift in Sources */,
+				C432335A28E42345003FA14B /* ScenicSpotsView.swift in Sources */,
+				C432336228E4488B003FA14B /* DetailSectionView.swift in Sources */,
+				C432335828E41CF3003FA14B /* ScenicSpot.swift in Sources */,
+				C47F527528E2DBDB0021A5E1 /* CityCardView.swift in Sources */,
+				C4D5697328E47F76001C3D15 /* LocationMapAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
